@@ -1,9 +1,20 @@
-# AI Architect Academy â€” Agent operating contract
+# AI Architect Academy — Agent Operating Contract
 
-Scope: All repositories under the **AI-Architect-Academy** GitHub Organization.
-Brand register: `ai-architect` (Practical, rigorous, and lab-driven. Every module ends in a deployed, verified system.)
+Scope: All repositories under the **AI-Architect-Academy** GitHub Organization (https://frankx.ai/academy).
+Brand register: `ai-architect`
 
-## Core guardrails
+## Responsible Agent Team & Governance
+
+| Role | Assigned Owner |
+| :--- | :--- |
+| **Human Codeowner** | `@frankxai` |
+| **Organization Steward** | `steward-education` |
+| **Executive Seat** | CHRO (Talent & Learning CoE) |
+| **Universal IS** | People Intelligence Sub-Stack,Second Brain IS |
+| **Council Lead** | starlight-training,starlight-culture,starlight-concierge |
+| **Primary Harnesses** | `Claude Code`, `Codex`, `Antigravity` |
+
+## Core Guardrails
 
 1. **Think before coding.** State assumptions and surface tradeoffs. Verify file contents and branch state before writing.
 2. **Surgical changes.** Touch only the files required for the active slice. Never overwrite or reset another agent's uncommitted worktree.
@@ -15,3 +26,12 @@ Brand register: `ai-architect` (Practical, rigorous, and lab-driven. Every modul
    - Preserve repository visibility parity: never copy or mirror private repository contents into a public repository.
    - Money fails closed; no autonomous spend or paid API provisioning without explicit human approval.
    - In health and mind domains, model observations only; never diagnose or make clinical claims.
+
+## Federated Repository Roster (2 repositories)
+
+| Repository | Visibility | Primary Owner | Role |
+| :--- | :--- | :--- | :--- |
+| `ai-architect-academy` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/ai-architect-academy) |
+| `starlight-intelligence-academy` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/starlight-intelligence-academy) |
+
+Built on SIP
