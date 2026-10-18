@@ -1,0 +1,14 @@
+# AI Architect Academy (AI-Architect-Academy) — Organization Default CODEOWNERS
+# Website: https://frankx.ai/academy
+# Brand ID: ai-architect | Governance Mode: active
+# Steward Agent: steward-education
+# Executive Seat: CHRO (Talent & Learning CoE)
+# Universal IS: People Intelligence Sub-Stack,Second Brain IS
+# Council Lead: starlight-training,starlight-culture,starlight-concierge
+# Primary Harnesses: Claude Code, Codex, Antigravity
+#
+# Human approval gate (Maker != Checker invariant):
+* @frankxai
+/.github/ @frankxai
+/AGENTS.md @frankxai
+/SECURITY.md @frankxai
