@@ -34,4 +34,6 @@ Brand register: `ai-architect`
 | `ai-architect-academy` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/ai-architect-academy) |
 | `starlight-intelligence-academy` | `private` | `frankxai` | federated-mirror (SSOT: frankxai/starlight-intelligence-academy) |
 
+For public learner instructions, link terminal labs to the public upstream at https://github.com/frankxai/ai-architect-academy and browser practice to https://starlightintelligence.academy/academy. Verify a first-time visitor can open each route without repository membership. Keep private mirrors for authorized maintenance.
+
 Built on SIP
