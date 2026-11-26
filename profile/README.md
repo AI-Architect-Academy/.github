@@ -1,46 +1,37 @@
 # AI Architect Academy
 
-Hands-on AI architecture labs, system design tracks, and operator training built with coding agents.
+**Which part of this job should an AI system do?**
 
-**Website:** [frankx.ai/academy](https://frankx.ai/academy) Â· **Ecosystem:** [Starlight Intelligence](https://github.com/Starlight-Intelligence) Â· [Starlight Systems](https://github.com/Starlight-Intelligence-Systems) Â· [Arcanea Labs](https://github.com/Arcanea-Labs) Â· [GenCreator](https://github.com/GenCreator-ai) Â· [FrankX](https://github.com/FrankX-AI)
+A good answer names a person, a decision and a way to tell when the design is wrong. Practice on a small case, keep your first attempt and take one decision you can defend into your next interview, customer meeting or team review.
 
----
+[Try the five-minute case](#your-first-five-minutes) · [Open the public technical labs](https://github.com/frankxai/ai-architect-academy/tree/main/labs)
 
-## Overview
+## Your first five minutes
 
-AI Architect Academy provides structured learning tracks, architecture kata labs, and capstone blueprints for engineers learning to design and operate production AI systems with coding agents.
+A fictional design studio promises customers a quote within two days. Its producer says the last three quotes waited overnight for someone to approve a photo licence. A teammate suggests building an agent to draft quotes faster.
 
-## System topology
+1. Write the first question you would ask the producer. Put one detail from the case beside it.
+2. Name two explanations for the delay. Which observation would distinguish them?
+3. Choose a small change you could reverse on Friday. Name who decides whether it helped.
 
-```mermaid
-flowchart LR
-  AAA["ai-architect-academy<br/>Public curriculum & labs"] --> LAB["Architecture Katas<br/>Memory, RAG, MCP & Swarms"]
-  LAB --> CAP["Capstone Systems<br/>Verified production builds"]
-```
+<details>
+<summary>Compare your reasoning after you write</summary>
 
-## Flagship repositories
+Ask the producer to reconstruct the last delayed quote. If the draft was ready on Tuesday and rights approval arrived on Thursday, drafting speed explains little about that delay. Try an approval checklist on the next quote and record both waiting time and reviewer effort. If the reviewer was waiting for missing information from the draft, test a different change. Keep both your original question and the reason you revised it.
 
-| Repository | Purpose | Link |
-| :--- | :--- | :--- |
-| [**ai-architect-academy**](https://github.com/AI-Architect-Academy/ai-architect-academy) | Learn AI architecture by building real systems with coding agents: labs, rubrics, and reference blueprints. | [Website](https://frankx.ai/academy) |
+</details>
 
-## Quickstart
+**Transfer the skill.** An engineering team says its release notes take too long. What evidence would persuade you that writing time is the cause? Give a colleague the case and see whether they can follow your reasoning without the worked example.
 
-```bash
-# Clone the AI Architect Academy lab repository
-git clone https://github.com/AI-Architect-Academy/ai-architect-academy.git
-cd ai-architect-academy
-```
+## Choose your next artifact
 
-## Engineering standards
+| The work in front of you | What to do next | What you keep |
+| --- | --- | --- |
+| Founder, seller or consultant preparing a meeting | Work through the case above with a colleague. Have them play the person who owns the quoted deadline. | A one-page brief with the first question and an observable stop condition |
+| Engineer reviewing a system that always passes its tests | [Fix the evaluation harness](https://github.com/frankxai/ai-architect-academy/tree/main/labs/04-eval-harness). Compare its response to a baseline and a seeded regression. | The failing case, your repair and the rerun |
+| Student preparing a portfolio or educator running a class | Pair up on the five-minute case. Each person answers before opening the comparison. Swap the release-notes case and review it against the same criteria. | A first attempt, a revision and a fresh example that shows what transferred |
+| Creator or team lead handing work to an operator | [Open AI Architect Studio](https://github.com/AI-Architect-Studio). Ask a second person to reproduce one decision from your files. | An editable handoff with an owner and a next action |
 
-Every repository in **AI Architect Academy** follows the Starlight estate engineering contract:
+You can begin in a notebook. For terminal practice, clone the [public curriculum](https://github.com/frankxai/ai-architect-academy) and follow the README inside your chosen lab. An optional coding agent can critique your explanation after you record the first attempt. Save the help you received alongside your own work.
 
-1. **Draft-first pull requests**: Open pull requests in draft mode (`gh pr create --draft`). CI workflows run only when a pull request is marked ready for review or lands on `main`.
-2. **Independent verification**: Maker harness and Checker harness must differ (`Maker-Harness` != `Checker-Harness`).
-3. **Zero committed secrets**: Credentials live in local environment files or Infisical. Pre-commit and CI gates reject secret patterns.
-4. **Editorial clarity**: Public documentation uses sentence case headings, concrete verbs, and verified metrics.
-
----
-
-<sub>Maintained by <a href="https://github.com/frankxai">Frank Riemer (frankxai)</a> Â· Built on the <a href="https://github.com/Starlight-Intelligence-Systems/Starlight-Intelligence-System">Starlight Intelligence Protocol (SIP)</a></sub>
+[Contribute to the public curriculum](https://github.com/frankxai/ai-architect-academy) · [Organization contribution guide](https://github.com/AI-Architect-Academy/.github/blob/main/CONTRIBUTING.md) · [Frank Riemer](https://github.com/frankxai)
