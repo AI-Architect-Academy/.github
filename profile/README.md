@@ -4,7 +4,7 @@
 
 A good answer names a person, a decision and a way to tell when the design is wrong. Practice on a small case, keep your first attempt and take one decision you can defend into your next interview, customer meeting or team review.
 
-[Start a self-paced practice in your browser](https://starlightintelligence.academy/academy) · [Open the public technical labs](https://github.com/frankxai/ai-architect-academy/tree/main/labs)
+[Try the five-minute case](#your-first-five-minutes) · [Open the public technical labs](https://github.com/frankxai/ai-architect-academy/tree/main/labs)
 
 ## Your first five minutes
 
@@ -27,7 +27,7 @@ Ask the producer to reconstruct the last delayed quote. If the draft was ready o
 
 | The work in front of you | What to do next | What you keep |
 | --- | --- | --- |
-| Founder, seller or consultant preparing a meeting | [Walk through the Academy learning paths](https://starlightintelligence.academy/academy). Start with the person who owns the decision. | A one-page brief with the first question and an observable stop condition |
+| Founder, seller or consultant preparing a meeting | Work through the case above with a colleague. Have them play the person who owns the quoted deadline. | A one-page brief with the first question and an observable stop condition |
 | Engineer reviewing a system that always passes its tests | [Fix the evaluation harness](https://github.com/frankxai/ai-architect-academy/tree/main/labs/04-eval-harness). Compare its response to a baseline and a seeded regression. | The failing case, your repair and the rerun |
 | Student preparing a portfolio or educator running a class | Pair up on the five-minute case. Each person answers before opening the comparison. Swap the release-notes case and review it against the same criteria. | A first attempt, a revision and a fresh example that shows what transferred |
 | Creator or team lead handing work to an operator | [Open AI Architect Studio](https://github.com/AI-Architect-Studio). Ask a second person to reproduce one decision from your files. | An editable handoff with an owner and a next action |
